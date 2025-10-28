@@ -1,0 +1,48 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    letter-spacing: 0.03rem;
+}
+
+.card {
+    border-radius: 0.75rem;
+}
+
+.card-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(13, 110, 253, 0.05);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #0d6efd 0%, #0b5ed7 100%);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #0b5ed7 0%, #094db5 100%);
+}
+
+.alert-info {
+    background-color: #eef6ff;
+    border-color: #d0e6ff;
+    color: #084298;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.badge.bg-light {
+    background-color: #f1f3f5 !important;
+}
